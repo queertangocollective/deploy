@@ -1,4 +1,4 @@
-# ember-deploy-plugin
+# @queertangocollective/ember-deploy-plugin
 
 This README outlines the details of collaborating on this Ember addon.
 

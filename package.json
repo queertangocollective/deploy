@@ -1,12 +1,12 @@
 {
-  "name": "ember-deploy-plugin",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "name": "@queertangocollective/ember-deploy-plugin",
+  "version": "0.1.0",
+  "description": "A front-end-builds flavored plugin for application hosted with queertangocollective.org",
   "keywords": [
     "ember-addon",
     "ember-cli-deploy-plugin"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "author": "",
   "directories": {
     "doc": "doc",
