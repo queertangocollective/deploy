@@ -1,26 +1,13 @@
-# @queertangocollective/ember-deploy-plugin
+# @queertangocollective/ember-cli-deploy-plugin
 
-This README outlines the details of collaborating on this Ember addon.
+This addon is a [ember-cli-deploy](https://ember-cli-deploy.com) plugin that helps with deploying apps using an api and public keys. This plugin is intended to be used in a plugin-pack, which makes it easy to deploy ember apps with as little fuss as necessary.
 
-## Installation
+This plugin requires the following configuration to run properly:
 
-* `git clone <repository-url>` this repository
-* `cd ember-deploy-plugin`
-* `npm install`
+| Variable  | What is it? |
+|-----------|-------------|
+| `api_key` | The Queer Tango Collective `API_KEY` that was given to you in the administration interface. |
+| `api_hostname` | The name of the api that this plugin should communicate to. 9 times out of 10, this is `api.queertangocollective.org` |
+| `git_url` | The github URL of your project so links can be created in the administration site for people to review changes made |
 
-## Running
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
