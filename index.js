@@ -12,7 +12,7 @@ module.exports = {
     const HOME = passwdUser.sync(process.getuid()).homedir;
 
     const DeployPlugin = BasePlugin.extend({
-      name: options.name,
+      name: 'qtc',
 
       defaultConfig: {
         privateKey: `${HOME}/.ssh/id_rsa`,
