@@ -20,9 +20,9 @@ module.exports = {
       },
 
       requiredConfig: [
-        'api_key',
-        'api_hostname',
-        'git_url'
+        'apiKey',
+        'apiHostname',
+        'gitUrl'
       ],
 
       didUpload(context) {
