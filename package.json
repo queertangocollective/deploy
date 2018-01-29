@@ -1,6 +1,6 @@
 {
   "name": "@queertangocollective/ember-cli-deploy-plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A front-end-builds flavored plugin for application hosted with queertangocollective.org",
   "keywords": [
     "ember-addon",
