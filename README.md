@@ -1,4 +1,4 @@
-# @queertangocollective/ember-cli-deploy-plugin
+# @queertangocollective/deploy
 
 This addon is a [ember-cli-deploy](https://ember-cli-deploy.com) plugin that helps with deploying apps using an api and public keys. This plugin is intended to be used in a plugin-pack, which makes it easy to deploy ember apps with as little fuss as necessary.
 
