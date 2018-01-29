@@ -8,7 +8,7 @@ const BuildNotifier = require('./lib/build-notifier');
 module.exports = {
   name: '@queertangocollective/ember-cli-deploy-plugin',
 
-  createDeployPlugin(options) {
+  createDeployPlugin() {
     const HOME = passwdUser.sync(process.getuid()).homedir;
 
     const DeployPlugin = BasePlugin.extend({
