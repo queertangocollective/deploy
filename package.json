@@ -6,39 +6,44 @@
     "ember-addon",
     "ember-cli-deploy-plugin"
   ],
+  "repository": "",
   "license": "Apache-2.0",
   "author": "",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
   "scripts": {
     "build": "ember build",
-    "lint:js": "eslint ./*.js lib",
+    "lint:js": "eslint .",
     "start": "ember serve",
-    "test": "ember try:each"
+    "test": "ember test",
+    "test:all": "ember try:each"
   },
   "dependencies": {
     "core-object": "^3.1.5",
-    "ember-cli-babel": "^5.1.7",
+    "ember-cli-babel": "^6.16.0",
     "ember-cli-deploy-plugin": "^0.2.9",
     "passwd-user": "^2.1.0",
-    "request": "^2.83.0",
-    "rsvp": "^4.8.1"
+    "request": "^2.87.0",
+    "rsvp": "^4.8.3"
   },
   "devDependencies": {
-    "ember-cli": "2.18.1",
+    "ember-cli": "~3.3.0",
     "ember-cli-eslint": "^4.2.3",
     "ember-cli-htmlbars": "^2.0.1",
     "ember-cli-release": "^0.2.9",
     "ember-cli-update": "^0.22.0",
+    "ember-maybe-import-regenerator": "^0.1.6",
     "ember-resolver": "^4.0.0",
-    "eslint-plugin-node": "^5.2.1",
-    "loader.js": "^4.2.3"
+    "ember-source-channel-url": "^1.0.1",
+    "ember-try": "^0.2.23",
+    "eslint-plugin-node": "^6.0.1",
+    "loader.js": "^4.2.3",
+    "qunit-dom": "^0.6.2"
   },
   "engines": {
-    "node": "^4.5 || 6.* || >= 7.*"
+    "node": "6.* || 8.* || >= 10.*"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
